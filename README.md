@@ -392,6 +392,6 @@ This project is for educational and research purposes. SEC filings are public do
 
 ---
 
-**Built with ❤️ for financial analysis and AI research**
+**Built as an Assignment for Uniqus**
 
 For questions or issues, please check the troubleshooting section or open an issue on GitHub.
