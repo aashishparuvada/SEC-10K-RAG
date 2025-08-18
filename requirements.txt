@@ -1,0 +1,14 @@
+openai
+python-dotenv
+requests
+beautifulsoup4
+pdfplumber
+tiktoken
+chromadb>=0.5.4
+streamlit
+
+# LangChain stack (v0.2+)
+langchain>=0.2.10
+langchain-openai>=0.1.15
+langchain-community>=0.2.10
+langchain-chroma>=0.1.1
