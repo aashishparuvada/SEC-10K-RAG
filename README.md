@@ -28,13 +28,13 @@ This application uses advanced AI techniques to process and analyze SEC 10-K fin
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │   SEC 10-K      │    │   Vector Store   │    │   Streamlit     │
-│   PDF Files     │───▶│   (ChromaDB)     │───▶│   Web App       │
-│                 │    │                  │    │                 │
+│   PDF Files     │    │   (ChromaDB)     │───▶│   Web App       │
+│    Chunks       │    │                  │    │                 │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
-                              │                          │
-                              ▼                          ▼
-                       ┌──────────────────┐    ┌─────────────────┐
-                       │   OpenAI         │    │   LangChain     │
+         │                     ↑                          │
+         │                     │                          ▼
+         │             ┌──────────────────┐    ┌─────────────────┐
+         │────────▶    │   OpenAI         │    │   LangChain     │
                        │   Embeddings     │    │   Agent         │
                        └──────────────────┘    └─────────────────┘
 ```
@@ -50,7 +50,7 @@ This application uses advanced AI techniques to process and analyze SEC 10-K fin
 ### 1. Clone and Setup
 
 ```bash
-git clone <your-repo-url>
+git clone: https://github.com/aashishparuvada/SEC-10K-RAG
 cd uniqus-assignment
 
 # Create virtual environment
