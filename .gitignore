@@ -311,3 +311,10 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ==================
+# Extra Files
+# ==================
+
+view_database.py
+database_chunks_examples.txt
